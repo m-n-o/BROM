@@ -1,0 +1,10 @@
+^E:\USERS\MN\SEV4\BROM-GIT\BUILD\CMAKEFILES\INTELVSIMPLICITPATH\CMAKEFILES\C42254E4688833CF9A3E187249B257F4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Program Files (x86)/CMake/share/cmake-3.19/Modules/IntelVSImplicitPath" -BE:/Users/MN/Sev4/brom-git/build/CMakeFiles/IntelVSImplicitPath --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Users/MN/Sev4/brom-git/build/CMakeFiles/IntelVSImplicitPath/IntelFortranImplicit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{6822ECC1-C96C-3001-88D2-6A05108B39B9}">
+	<Platforms>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|x64" OutputDirectory="fabm_base.dir\Debug" IntermediateDirectory="fabm_base.dir\Debug" TargetName="fabm_base" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName)" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath="modules\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDebug" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_base.dir\Debug\fabm_base.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="fabm_base.dir\Release" IntermediateDirectory="fabm_base.dir\Release" TargetName="fabm_base" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath="modules\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_base.dir\Release\fabm_base.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;&quot;&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="MinSizeRel|x64" OutputDirectory="fabm_base.dir\MinSizeRel" IntermediateDirectory="fabm_base.dir\MinSizeRel" TargetName="fabm_base" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath="modules\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_base.dir\MinSizeRel\fabm_base.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;&quot;&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|x64" OutputDirectory="fabm_base.dir\RelWithDebInfo" IntermediateDirectory="fabm_base.dir\RelWithDebInfo" TargetName="fabm_base" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath="modules\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_base.dir\RelWithDebInfo\fabm_base.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;&quot;&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="builtin">
+		<File RelativePath="E:\fabm_v1.03\src\builtin\constant.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\builtin\depth_integral.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\builtin\reduction.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\builtin\relaxation.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\builtin\scale.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\builtin\source.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\builtin\sum.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\builtin\time_filter.F90"/></Filter>
+		<Filter Name="Header Files">
+		<File RelativePath="E:\fabm_v1.03\include\fabm.h"/>
+		<File RelativePath="E:\fabm_v1.03\src\drivers\brom\fabm_driver.h"/>
+		<File RelativePath="E:\fabm_v1.03\include\fabm_private.h"/>
+		<File RelativePath="E:\fabm_v1.03\include\fabm_version.h"/></Filter>
+		<File RelativePath="E:\fabm_v1.03\src\CMakeLists.txt">
+			<FileConfiguration Name="RelWithDebInfo|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/fabm_v1.03/src/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\CMakeFiles\generate.stamp" AdditionalDependencies="E:\fabm_v1.03\src\CMakeLists.txt;E:\fabm_v1.03\src\fabm_library.F90.in;E:\fabm_v1.03\src\fabm_parameters.F90.in;E:\fabm_v1.03\src\fabm_version.F90.in;E:\fabm_v1.03\src\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/fabm_v1.03/src/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\CMakeFiles\generate.stamp" AdditionalDependencies="E:\fabm_v1.03\src\CMakeLists.txt;E:\fabm_v1.03\src\fabm_library.F90.in;E:\fabm_v1.03\src\fabm_parameters.F90.in;E:\fabm_v1.03\src\fabm_version.F90.in;E:\fabm_v1.03\src\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/fabm_v1.03/src/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\CMakeFiles\generate.stamp" AdditionalDependencies="E:\fabm_v1.03\src\CMakeLists.txt;E:\fabm_v1.03\src\fabm_library.F90.in;E:\fabm_v1.03\src\fabm_parameters.F90.in;E:\fabm_v1.03\src\fabm_version.F90.in;E:\fabm_v1.03\src\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/fabm_v1.03/src/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\CMakeFiles\generate.stamp" AdditionalDependencies="E:\fabm_v1.03\src\CMakeLists.txt;E:\fabm_v1.03\src\fabm_library.F90.in;E:\fabm_v1.03\src\fabm_parameters.F90.in;E:\fabm_v1.03\src\fabm_version.F90.in;E:\fabm_v1.03\src\CMakeLists.txt;"/></FileConfiguration></File>
+		<File RelativePath="E:\fabm_v1.03\src\fabm_builtin_models.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\fabm_driver.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\fabm_expressions.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom-git\build\fabm\fabm_parameters.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\fabm_particle.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\fabm_properties.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\fabm_standard_variables.F90"/>
+		<File RelativePath="E:\fabm_v1.03\src\fabm_types.F90"/></Files>
+	<Globals/></VisualStudioProject>

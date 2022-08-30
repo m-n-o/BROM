@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{3E8F62DF-FAFE-362D-97FE-D1FFD31752FF}">
+	<Platforms>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|x64" OutputDirectory="fabm_models_niva.dir\Debug" IntermediateDirectory="fabm_models_niva.dir\Debug" TargetName="fabm_models_niva" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\models\niva;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva/$(ConfigurationName)" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDebug" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_models_niva.dir\Debug\fabm_models_niva.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="fabm_models_niva.dir\Release" IntermediateDirectory="fabm_models_niva.dir\Release" TargetName="fabm_models_niva" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\models\niva;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_models_niva.dir\Release\fabm_models_niva.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;&quot;&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="MinSizeRel|x64" OutputDirectory="fabm_models_niva.dir\MinSizeRel" IntermediateDirectory="fabm_models_niva.dir\MinSizeRel" TargetName="fabm_models_niva" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\models\niva;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_models_niva.dir\MinSizeRel\fabm_models_niva.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;&quot;&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|x64" OutputDirectory="fabm_models_niva.dir\RelWithDebInfo" IntermediateDirectory="fabm_models_niva.dir\RelWithDebInfo" TargetName="fabm_models_niva" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\NetCDF 3.6.3\include/$(ConfigurationName);E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\drivers\brom/$(ConfigurationName);E:\fabm_v1.03\src\..\include;E:\fabm_v1.03\src\..\include/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\modules/$(ConfigurationName);E:\Users\MN\Sev4\brom-git\build\fabm\models\niva;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="fabm_models_niva.dir\RelWithDebInfo\fabm_models_niva.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;&quot;&quot;" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="E:\NetCDF 3.6.3\include;E:\fabm_v1.03\src\drivers\brom;E:\fabm_v1.03\src\..\include;E:\Users\MN\Sev4\brom-git\build\fabm\modules;E:\Users\MN\Sev4\brom-git\build\fabm\models\niva" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration></Configurations>
+	<Files>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_acetate.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_ba.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_bact.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_bio.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_bioplast.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_bubble.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_calcium.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_carbon.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_cod.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_eq_constants.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_fe.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_hg.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_injection.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_main_nutrients.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_manganese.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_methane.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_mg.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_ni.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_nitrogen.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_partitioning.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_pH.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_salt.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_silicon.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\brom_sulfur.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt">
+			<FileConfiguration Name="RelWithDebInfo|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/models/niva/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/Users/MN/Sev4/brom_niva_module/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\models\niva\CMakeFiles\generate.stamp" AdditionalDependencies="E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/models/niva/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/Users/MN/Sev4/brom_niva_module/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\models\niva\CMakeFiles\generate.stamp" AdditionalDependencies="E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/models/niva/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/Users/MN/Sev4/brom_niva_module/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\models\niva\CMakeFiles\generate.stamp" AdditionalDependencies="E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/fabm/models/niva/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule E:/Users/MN/Sev4/brom_niva_module/CMakeLists.txt" Outputs="E:\Users\MN\Sev4\brom-git\build\fabm\models\niva\CMakeFiles\generate.stamp" AdditionalDependencies="E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;E:\Users\MN\Sev4\brom_niva_module\CMakeLists.txt;"/></FileConfiguration></File>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\niva_model_library.F90"/>
+		<File RelativePath="E:\Users\MN\Sev4\brom_niva_module\brom\oxydep.F90"/></Files>
+	<Globals/></VisualStudioProject>

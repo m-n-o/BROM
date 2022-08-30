@@ -1,0 +1,10 @@
+^E:\USERS\MN\SEV4\BROM-GIT\BUILD\CMAKEFILES\18BC67A71076ED89BCD1420A4D7954D9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Users/MN/Sev4/brom-git/build/brom-transport.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

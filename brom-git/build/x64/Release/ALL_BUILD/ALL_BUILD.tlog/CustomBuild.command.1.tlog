@@ -1,0 +1,10 @@
+^E:\USERS\MN\SEV4\BROM-GIT\CODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/Users/MN/Sev4/brom-git/code -BE:/Users/MN/Sev4/brom-git/build --check-stamp-file E:/Users/MN/Sev4/brom-git/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

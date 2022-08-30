@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Users\MN\Sev4\brom-git\build\CMakeFiles\18bc67a71076ed89bcd1420a4d7954d9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{24E79724-E58D-36B1-AC44-77041DD7FE99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

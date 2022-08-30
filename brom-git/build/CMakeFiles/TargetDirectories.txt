@@ -1,0 +1,15 @@
+E:/Users/MN/Sev4/brom-git/build/CMakeFiles/brom.dir
+E:/Users/MN/Sev4/brom-git/build/CMakeFiles/INSTALL.dir
+E:/Users/MN/Sev4/brom-git/build/CMakeFiles/ALL_BUILD.dir
+E:/Users/MN/Sev4/brom-git/build/CMakeFiles/ZERO_CHECK.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/fabm_base.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/fabm.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/INSTALL.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/test_host.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/CMakeFiles/ALL_BUILD.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/models/niva/CMakeFiles/fabm_models_niva.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/models/niva/CMakeFiles/INSTALL.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/yaml/CMakeFiles/yaml.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/yaml/CMakeFiles/test_yaml.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/yaml/CMakeFiles/INSTALL.dir
+E:/Users/MN/Sev4/brom-git/build/fabm/yaml/CMakeFiles/ALL_BUILD.dir

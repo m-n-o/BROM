@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioUserFile ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{21F452FE-B1B2-390E-9A3A-E013CCBEC52E}">
+	<Configurations>
+		<Configuration Name="Debug|x64"/>
+		<Configuration Name="Release|x64" WorkingDirectory="E:\Users\MN\Sev4\data"/>
+		<Configuration Name="MinSizeRel|x64"/>
+		<Configuration Name="RelWithDebInfo|x64"/></Configurations></VisualStudioUserFile>
