@@ -40,7 +40,7 @@ instances:
       days_in_yr:  365         # Number of days in repeated period (typically 365 or 366, default = 365)
       first_day:   1         # first day to start calculations 
       input_step:  3600        # Timestep of input netcdf data in seconds
-      last_day:    1095 #1095 #7300 # 18250 #36500 # 1825 #14600 #3650 #       # Last day in simulation (~ days_in_yr * no. repeated years, default = 365)
+      last_day:    3650 #1095 #7300 # 18250 #36500 # 1825 #14600 #3650 #       # Last day in simulation (~ days_in_yr * no. repeated years, default = 365)
       output_step: 86400       #      # Step in seconds to save output netcdf file, recommended to be divided from 86400 AND 1/dt
       cc0:         0.0         # Resilient (minimum) concentration for all variables [mmol/m3] (default = 1.0E-11 mmol/m3)
 #
